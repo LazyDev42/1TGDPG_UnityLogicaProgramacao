@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &238271701
+--- !u!1 &163910179
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,18 +127,13 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 238271704}
-  - component: {fileID: 238271703}
-  - component: {fileID: 238271702}
-  - component: {fileID: 238271705}
-  - component: {fileID: 238271706}
-  - component: {fileID: 238271708}
-  - component: {fileID: 238271707}
-  - component: {fileID: 238271709}
-  - component: {fileID: 238271710}
-  - component: {fileID: 238271711}
-  - component: {fileID: 238271712}
-  - component: {fileID: 238271713}
+  - component: {fileID: 163910181}
+  - component: {fileID: 163910180}
+  - component: {fileID: 163910182}
+  - component: {fileID: 163910183}
+  - component: {fileID: 163910186}
+  - component: {fileID: 163910185}
+  - component: {fileID: 163910184}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -146,37 +141,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &238271702
+--- !u!114 &163910180
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
+  m_GameObject: {fileID: 163910179}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 111cfa3ba29846c4581476392ff2be5d, type: 3}
+  m_Script: {fileID: 11500000, guid: 7eb4928fa9c8935498fbe77bd31b87b1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio02_Lista01
---- !u!114 &238271703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8232687fcf9e4244e9d5360a39f29a4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio01_Lista01
---- !u!4 &238271704
+  m_EditorClassIdentifier: Assembly-CSharp::CondicionalComposto01
+  classePersonagem: fiap
+--- !u!4 &163910181
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
+  m_GameObject: {fileID: 163910179}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -185,125 +169,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &238271705
+--- !u!114 &163910182
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
+  m_GameObject: {fileID: 163910179}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ad285b6f291a8c4499150f8985e9a91, type: 3}
+  m_Script: {fileID: 11500000, guid: 03422cf285863fb45ae6dd87e5539520, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio03_Lista01
---- !u!114 &238271706
+  m_EditorClassIdentifier: Assembly-CSharp::CondicionalComposto02
+  moeda: 100
+--- !u!114 &163910183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
+  m_GameObject: {fileID: 163910179}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4678b5761ca6e6c4b919ab29045c41e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 370ca17e02f5ce64095cc00ecfc41553, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio04_Lista01
---- !u!114 &238271707
+  m_EditorClassIdentifier: Assembly-CSharp::Exercicio01_Lista05
+  numero: 0
+--- !u!114 &163910184
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 604d8e1bd2c693d44bc58cf8b3b81c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio06_Lista01
-  idade: 21
---- !u!114 &238271708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fabd58598a21cb54c9ea373b5a1235be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio05_Lista01
---- !u!114 &238271709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1340a483e13f4c4ca284ef4e1bb60ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio07_Lista01
-  numero1: 200
-  numero2: 50
---- !u!114 &238271710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2cd2c0bc25cabb4f8850c0df713f4c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio08_Lista01
-  vida: 100
---- !u!114 &238271711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf48f8484bf03d5418edc9218d504783, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exercicio09_Lista01
-  numero: 50
---- !u!114 &238271712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3fc47936e9cb7740a960d984c1d66c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Exemplo01_Operadores
-  a: 5
-  b: 50
---- !u!114 &238271713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238271701}
+  m_GameObject: {fileID: 163910179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c4ff7c3aabb61479c23e4c782d5c09, type: 3}
+  m_Script: {fileID: 11500000, guid: ce8f12d852adeca4c8e196162c9d7b5d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Condicional01
-  aluno: Manuel
-  nota1: 2.5
-  nota2: 1
---- !u!1 &360969906
+  m_EditorClassIdentifier: Assembly-CSharp::CondicionalEncadeado
+--- !u!114 &163910185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163910179}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01f66b21f4bc67489fe3678171a713c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Exercicio03_Lista05
+  vida: 0
+--- !u!114 &163910186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163910179}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f80d0834bfc1441aefe5aee88f61db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Exercicio02_Lista05
+  a: 0
+  b: 0
+  c: 0
+--- !u!1 &666886711
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,9 +243,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 360969909}
-  - component: {fileID: 360969908}
-  - component: {fileID: 360969907}
+  - component: {fileID: 666886714}
+  - component: {fileID: 666886713}
+  - component: {fileID: 666886712}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -321,21 +253,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &360969907
+--- !u!81 &666886712
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360969906}
+  m_GameObject: {fileID: 666886711}
   m_Enabled: 1
---- !u!20 &360969908
+--- !u!20 &666886713
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360969906}
+  m_GameObject: {fileID: 666886711}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -380,13 +312,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &360969909
+--- !u!4 &666886714
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360969906}
+  m_GameObject: {fileID: 666886711}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -399,5 +331,5 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 360969909}
-  - {fileID: 238271704}
+  - {fileID: 666886714}
+  - {fileID: 163910181}
